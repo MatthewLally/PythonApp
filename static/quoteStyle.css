@@ -1,7 +1,3 @@
-<html>
-<head>
-    <title>Website</title>
-<style>
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
  
 body{
@@ -13,16 +9,3 @@ h1{
     color: #8ac640;
     font-size: 2.5em;
 }
- 
-</style>
- 
-</head>
-<body>
-
-
- {% block body %}{% endblock %}
- 
-  <a href='/logout'>Logout</a>
- 
-</body>
-</html>

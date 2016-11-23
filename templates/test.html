@@ -1,13 +1,23 @@
-{% extends "layout.html" %}
-{% block body %}
-
-<body>
+<html>
+<head>
+    <title>My App</title>
+<script type="text/javascript" src="static/quotes.js"></script>
+<link rel="stylesheet" href="/static/quoteStyle.css" type="text/css">
 <div class="block1">
-<h1>Welcome!!!!!</h1>
-  <h2>Here is an interesting quote for you:  </h2>
+<h1>Hello {{name}}!</h1>
+  <h2>Here is an interesting quote for you: </h2>
   <p>
-  {{showQuotation}}
   </p>
+<img src="/static/images.png">
+
 </div>
+<p>
+<script type="text/javascript>"
+    showQuotation();
+    </script>
+</p>
+</head>
+<body>
+ 
 </body>
-{% endblock %}
+</html>
