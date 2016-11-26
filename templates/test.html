@@ -1,16 +1,20 @@
 <html>
-<head>
-    <title>My App</title>
-<script src="{{url_for('static', filename='quotes.js')}}"></script>
-<link rel="stylesheet" href="/static/quoteStyle.css" type="text/css">
-</head>
-<body>
-<h1>Hello!!!</h1>
-  <h2>Here is an interesting quote for you: </h2>
-<img src="/static/images.png">
-
-<script type="text/javascript>"
-    showQuotation();
-    </script>
-</body>
+  <head>
+  <link rel="stylesheet" href="/static/quoteStyle.css" type="text/css">
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <h1>Simple Quote Generator</h1>
+    <h2> Welcome to my quote generator !! </h2>
+    <script src="/static/quotes.js"></script>
+    <div id="quoteDisplay">
+      <!-- Quotes will display here -->
+    </div>
+    <!-- Center is added for button placement -->
+    <center>
+      <button onclick="newQuote()">New Quote</button></center>
+    
+  </body>
 </html>
+
+<!-- adapted from http://codepen.io/jezebelee/pen/dpJVwq -->
