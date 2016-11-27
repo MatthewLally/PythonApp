@@ -4,7 +4,7 @@ from sqlalchemy import Column, Date, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, backref
  
-engine = create_engine('sqlite:///userData.db', echo=True)
+engine = create_engine('sqlite:///userData.db', echo=True) #Creates a file called userData
 Base = declarative_base()
 
 
@@ -12,7 +12,7 @@ Base = declarative_base()
 ########################################################################
 class User(Base):
     """"""
-    __tablename__ = "users"
+    __tablename__ = "users" #sets the table name as users
  
     id = Column(Integer, primary_key=True)
     username = Column(String)

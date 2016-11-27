@@ -8,7 +8,8 @@ engine = create_engine('sqlite:///userData.db', echo=True)
 # create a Session
 Session = sessionmaker(bind=engine)
 session = Session()
- 
+
+#data to test login
 user = User("matthew","password")
 session.add(user)
  

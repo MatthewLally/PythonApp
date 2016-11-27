@@ -6,27 +6,27 @@ box-sizing: border-box;
 	outline: none;
 }
 body {
-font-family: Arial;
-background-color: #3498DB;
-padding: 50px;
+font-family: Arial; /* sets body font type */
+background-color: #e8c61b;/* sets body background color */
+padding: 50px;/* sets padding */
 }
 .login {
-margin: 20px auto;
-width: 300px;
+margin: 50px auto;
+width: 420px;
 }
 .login-screen {
-background-color: #FFF;
-padding: 20px;
-border-radius: 5px
+background-color: #FFF; /* sets login screen background color */
+padding: 30px; /* sets padding */
+border-radius: 40px /* sets border radius */
 }
  
 .app-title {
-text-align: center;
-color: #777;
+text-align: center; /* sets app title text to center */
+color: #e8c61b; /* sets app title text color */
 }
  
 .login-form {
-text-align: center;
+text-align: center; /* sets text to center */
 }
 .control-group {
 margin-bottom: 10px;
@@ -34,27 +34,27 @@ margin-bottom: 10px;
  
 input {
 text-align: center;
-background-color: #ECF0F1;
-border: 2px solid transparent;
-border-radius: 3px;
-font-size: 16px;
-font-weight: 200;
+background-color: #263e44; /* sets input background color*/
+border: 5px solid transparent; /* sets border as transparent*/
+border-radius: 3px; /* sets border radius*/
+font-size: 26px; /* sets font size*/
+font-weight: 200; /* sets font weight */
 padding: 10px 0;
 width: 250px;
 transition: border .5s;
 }
  
 input:focus {
-border: 2px solid #3498DB;
+border: 2px solid #263e44; /* sets border as solid and the color */
 box-shadow: none;
 }
  
 .btn {
-  border: 2px solid transparent;
-  background: #3498DB;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 25px;
+  border: 2px solid transparent; /* sets border as transparent */
+  background: #263e44; /* sets btn background color */ 
+  color: #ffffff; /* sets btn color */
+  font-size: 16px; /* sets btn font size */
+  line-height: 25px; /* sets line height */
   padding: 10px 0;
   text-decoration: none;
   text-shadow: none;
@@ -67,7 +67,7 @@ box-shadow: none;
 }
  
 .btn:hover {
-  background-color: #2980B9;
+  background-color: #263e44;
 }
  
 .login-link {

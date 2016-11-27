@@ -1,4 +1,5 @@
-var quotes = ['Imagination is more important than knowledge. - Albert Einstein',
+//sets up an array of quotes
+var quotes = ['Imagination is more important than knowledge. - Albert Einstein', 
   'If music be the food of love, play on. - William Shakespheare',
   'The way to get started is to quit talking and begin doing. - Walt Disney',
   'Obstacles are those frightful things you see when you take your eyes off the goal. - Henry Ford',
@@ -8,7 +9,7 @@ var quotes = ['Imagination is more important than knowledge. - Albert Einstein',
   'The life which is unexamined is not worth living. - Socrates',
   'Live as if you were to die tomorrow. Learn as if you were to live forever. - M.K. Gandhi',
   'What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar',]
-function newQuote() {
-var randomNumber = Math.floor(Math.random() * (quotes.length));
-document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+function newQuote() { //creates a function new quote
+var randomNumber = Math.floor(Math.random() * (quotes.length)); // creates a random number buy multiplying a random number by quotes.length
+document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber]; //prints out random quote
 }

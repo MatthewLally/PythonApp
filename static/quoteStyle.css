@@ -2,36 +2,36 @@
 /* adapted from http://codepen.io/jezebelee/pen/dpJVwq */
 
 img {
-    border = none;
+    border = none; /* sets no img border */
 }
 html, body{
     width : 100%;
     height : 100%;
-    background-color: #285c54;
-    font-family: sans-serif;
+    background-color: #285c54; /* sets background color */
+    font-family: sans-serif; /* sets font */
     color: fff;
-    text-align: center;    
+    text-align: center;    /* aligns text to the center */
 }
 h1{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', cursive; /* sets font */
     font-weight: normal;
     color: #8ac640;
-    font-size: 2.5em;
+    font-size: 2.5em; /* sets font size */
     text-align : center;
 }
 
 p {
-    font-weight : 900;
+    font-weight : 900; /* sets font weight*/
 }
 
 
 
 button {
-  border-color: #000;
-  background-color: #88D0FE;
-  color: ##5c284e;
+  border-color: #000; /* sets button border color */
+  background-color: #88D0FE; /* sets button background color */
+  color: ##5c284e; /* sets button color */
   font-size: 25px;
 }
 #quoteDisplay {
-  padding: 25px;
+  padding: 25px; /* sets quote display padding */
 }
