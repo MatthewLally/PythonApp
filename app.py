@@ -4,7 +4,7 @@ import os
 from random import randint
 from sqlalchemy.orm import sessionmaker
 from tabledef import *
-engine = create_engine('sqlite:///tutorial.db', echo=True)
+engine = create_engine('sqlite:///userData.db', echo=True)
  
 app = Flask(__name__)
  
