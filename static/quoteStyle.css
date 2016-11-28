@@ -7,15 +7,15 @@ img {
 html, body{
     width : 100%;
     height : 100%;
-    background-color: #285c54; /* sets background color */
+    background-color: #e8c61b;; /* sets background color */
     font-family: sans-serif; /* sets font */
-    color: fff;
+    color: #423d3c;
     text-align: center;    /* aligns text to the center */
 }
 h1{
     font-family: 'Amatic SC', cursive; /* sets font */
     font-weight: normal;
-    color: #8ac640;
+    color: #423d3c;
     font-size: 2.5em; /* sets font size */
     text-align : center;
 }
@@ -34,4 +34,14 @@ button {
 }
 #quoteDisplay {
   padding: 25px; /* sets quote display padding */
+}
+
+.quoteSpace {
+margin: 50px auto;
+width: 420px;
+}
+.quoteCss {
+background-color: #FFF; /* sets login screen background color */
+padding: 30px; /* sets padding */
+border-radius: 40px /* sets border radius */
 }

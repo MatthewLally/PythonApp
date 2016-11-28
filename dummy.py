@@ -7,17 +7,17 @@ engine = create_engine('sqlite:///userData.db', echo=True)
  
 # create a Session
 Session = sessionmaker(bind=engine)
-session = Session()
+database = Session()
 
 #data to test login
 user = User("matthew","password")
-session.add(user)
+database.add(user)
  
 user = User("datarep","gmit")
-session.add(user)
+database.add(user)
 
  
 # commit the record the database
-session.commit()
+database.commit()
  
-session.commit()
+database.commit()
