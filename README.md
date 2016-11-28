@@ -17,6 +17,8 @@ You are required to develop a single-page web application(SPA) written in the pr
 8. Should say running on http://127.0.0.1:5000/
 9. Open a web browser and go to http://127.0.0.1:5000/
 10. App should be running there.
+11. To log in use matthew as the username and password as password.
+12. Otherwise use datarep as username and gmit as password.
 
 ## Creator
 This application was created by Matthew Lally a third year software development student in GMIT.  This app was written over two weeks with two hours of work per day.
