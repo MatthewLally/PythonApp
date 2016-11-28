@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
 /* adapted from http://codepen.io/jezebelee/pen/dpJVwq */
+/* all code adapted from https://pythonspot.com/en/flask-web-app-with-python/comment-page-1/ and also from https://pythonspot.com/en/login-authentication-with-flask/ --> */
 
 img {
     border = none; /* sets no img border */

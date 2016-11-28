@@ -1,3 +1,4 @@
+// adapted from http://codepen.io/jezebelee/pen/dpJVwq 
 //sets up an array of quotes
 var quotes = ['Imagination is more important than knowledge. - Albert Einstein', 
   'If music be the food of love, play on. - William Shakespheare',
