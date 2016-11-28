@@ -9,7 +9,7 @@ Base = declarative_base()
 
 
  
-########################################################################
+
 class User(Base):
     """"""
     __tablename__ = "users" #sets the table name as users
@@ -18,7 +18,6 @@ class User(Base):
     username = Column(String)
     password = Column(String)
  
-    #----------------------------------------------------------------------
     def __init__(self, username, password):
         """"""
         self.username = username

@@ -1,4 +1,6 @@
 #Imports 
+#all code adapted from https://pythonspot.com/en/flask-web-app-with-python/comment-page-1/ and also from https://pythonspot.com/en/login-authentication-with-flask/
+
 from flask import Flask
 from flask import Flask, flash, redirect, render_template, request, session, abort
 import os

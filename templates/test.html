@@ -1,27 +1,28 @@
+<!--all code adapted from https://pythonspot.com/en/flask-web-app-with-python/comment-page-1/ and also from https://pythonspot.com/en/login-authentication-with-flask/ -->
 <html>
-  <head>
-  <link rel="stylesheet" href="/static/quoteStyle.css" type="text/css">
-    <title>Quote Generator</title> <!--adds a title -->
-  </head>
-  <body>
-    <h1>Simple Quote Generator</h1> <!--creates a header -->
-    <div class="quoteSpace">
-    <div class="quoteCss">
-    <div id="quoteDisplay">
-    <!--quotes will show up here -->
-      <p>Click the button for a random quote.</p>
+    <head>
+    <link rel="stylesheet" href="/static/quoteStyle.css" type="text/css">
+        <title>Quote Generator</title> <!--adds a title -->
+    </head>
+    <body>
+        <h1>Simple Quote Generator</h1> <!--creates a header -->
+        <div class="quoteSpace">
+        <div class="quoteCss">
+        <div id="quoteDisplay">
+        <!--quotes will show up here -->
+        <p>Click the button for a random quote.</p>
     </div>
-    <!-- Center is added for button placement -->
+        <!-- Center is added for button placement -->
     <center>
-      <button onclick="newQuote()">New Quote</button></center> <!--creates button to click for a new quote -->
-       <script src="/static/quotes.js"></script> <!--links to javascipt file -->
-      <a href='/logout'><button>Logout</button></a> <!--adds a logout python that links back to the route set for logout in app.py -->
-      </div>
-      </div>
-      <footer>
-      <img src="/static/quoteImage.jpg" alt = "image"> <!--adds an image -->
-      <p>&copy; Matthew Lally.</p>
-      </footer>
+        <button onclick="newQuote()">New Quote</button></center> <!--creates button to click for a new quote -->
+        <script src="/static/quotes.js"></script> <!--links to javascipt file -->
+        <a href='/logout'><button>Logout</button></a> <!--adds a logout python that links back to the route set for logout in app.py -->
+        <img src="/static/images.png" alt = "image"> <!--adds an image -->
+    </div>
+  </div>
+  <footer>
+  <p>&copy; Matthew Lally.</p>
+  </footer>
   </body>
 </html>
 

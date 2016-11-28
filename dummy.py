@@ -1,3 +1,4 @@
+#all code adapted from https://pythonspot.com/en/flask-web-app-with-python/comment-page-1/ and also from https://pythonspot.com/en/login-authentication-with-flask/
 import datetime
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
