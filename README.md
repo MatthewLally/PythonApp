@@ -23,3 +23,6 @@ This application was created by Matthew Lally a third year software development 
 
 ##Architecture
 This web application runs in Python 3 using the Flask web micro-framework and uses SQLite as a database. I  chose to use  SQLite as it is easy to use. If you want a multi-user login system, you should add a database layer to the application. Flask does not have out of the box database support. You have to use a third party library if you want database support. I decided to use SqlAlchemy.
+
+##How the app works
+The quotes are generated using the javascript file found in the static folder. This creates a function called new quote. You link the javascript in html and call the function in a button when the button is pressed, a random quote will appear. When you intially open the app python will open the default route. This will bring you to the login screen if you are not logged in. After you log in python tells the app to go too the test.html page which is where you will be able to see your random quote. The pages are syled using the two different CSS files.
