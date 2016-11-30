@@ -8,13 +8,15 @@ engine = create_engine('sqlite:///userData.db', echo=True)
  
 # create a Session
 Session = sessionmaker(bind=engine)
-database = Session()
+database = Session() #creates new session database
 
 #data to test login
-user = User("matthew","password")
+
+
+user = User("matthew","password") #creates user matthew password
 database.add(user)
  
-user = User("datarep","gmit")
+user = User("datarep","gmit") #creates user datarep gmit
 database.add(user)
 
  

@@ -1,3 +1,5 @@
+#all code adapted from https://pythonspot.com/en/flask-web-app-with-python/comment-page-1/ and also from https://pythonspot.com/en/login-authentication-with-flask/
+#imports
 from sqlalchemy import *
 from sqlalchemy import create_engine, ForeignKey
 from sqlalchemy import Column, Date, Integer, String
@@ -10,7 +12,8 @@ Base = declarative_base()
 
  
 
-class User(Base):
+
+ class User(Base): #creates user class
     """"""
     __tablename__ = "users" #sets the table name as users
  
@@ -23,5 +26,8 @@ class User(Base):
         self.username = username
         self.password = password
  
-# create tables
+
+ 
+ 
+ # create tables
 Base.metadata.create_all(engine)
