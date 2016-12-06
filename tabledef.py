@@ -13,7 +13,7 @@ Base = declarative_base()
  
 
 
- class User(Base): #creates user class
+class User(Base): #creates user class
     """"""
     __tablename__ = "users" #sets the table name as users
  
